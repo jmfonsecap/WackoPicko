@@ -11,7 +11,6 @@ jobs:
           args: skims scan ./config.yaml
       - name: Upload CSV Artifact
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
-          name: scan-report
           path: PracticaSeguridad.csv
