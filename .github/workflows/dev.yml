@@ -8,9 +8,9 @@ jobs:
       - uses: docker://docker.io/fluidattacks/cli:latest
         name: machineStandalone
         with:
-          args: skims scan --csv ./output.csv
+          args: skims scan ./config.yaml
       - name: Upload CSV Artifact
         uses: actions/upload-artifact@v4
         with:
           name: scan-report
-          path: ./output.csv
+          path: ./PracticaSeguridad.csv
