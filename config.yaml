@@ -6,3 +6,6 @@ working_dir: .
 language: EN
 strict: true
 debug: true
+sast: 
+  include:
+    - .
