@@ -2,7 +2,7 @@ namespace: WackoPicko
 output:
   file_path: ./PracticaSeguridad.csv
   format: CSV
-working_dir: https://github.com/jmfonsecap/WackoPicko.git
+working_dir: .
 language: EN
 strict: true
 debug: true
