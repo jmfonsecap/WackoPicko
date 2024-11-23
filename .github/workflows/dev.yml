@@ -13,4 +13,5 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v3
         with:
+          name: scan-report
           path: PracticaSeguridad.csv
